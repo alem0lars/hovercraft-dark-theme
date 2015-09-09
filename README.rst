@@ -20,3 +20,18 @@ Add to your presentation
 Once you have written your slides, use the theme::
 
   $ hovercraft -t alem0lars-dark-theme slides.rst .
+
+Additional custom styles available
+----------------------------------
+
+- Important text:
+
+  .. code-block:: rst
+
+     :important:`my important text`
+
+- Strikethrough text:
+
+  .. code-block:: rst
+
+     :strike:`my important text`
