@@ -20,7 +20,6 @@
 body {
   margin: 0;
   font-size: 200%;
-  text-align: center;
   font-family: "Inconsolata", "Source Code Pro";
   background-color: #3b3b3b; /* black */
 }
@@ -67,9 +66,13 @@ a:visited {
   color: #adadad; /* white */
   width: 70%;
 }
-h1,
+h1 {
+  font-size: 2em;
+  color: #71b9f8; /* cyan */
+}
 h2 {
-    color: #71b9f8; /* cyan */
+  font-size: 1.4em;
+  color: #71b9f8; /* cyan */
 }
 pre {
     padding: 20px;
@@ -99,6 +102,10 @@ th, td {
 td p,
 th p {
     margin: 0;
+}
+
+.strike {
+  text-decoration: line-through;
 }
 
 /* title slide */
